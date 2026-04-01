@@ -1,0 +1,5 @@
+{
+  "name": "JSON Master - Formatter & Validator",
+  "description": "A production-ready JSON formatter, validator, and editor with advanced features like YAML conversion, diff viewer, and schema validation.",
+  "requestFramePermissions": []
+}
