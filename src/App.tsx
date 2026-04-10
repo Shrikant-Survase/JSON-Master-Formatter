@@ -11,6 +11,7 @@ import addFormats from 'ajv-formats';
 import { AlertCircle, CheckCircle2, X, Search, Globe, Code2 } from 'lucide-react';
 import { cn } from './lib/utils';
 import { motion, AnimatePresence } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
@@ -569,6 +570,7 @@ export default function App() {
           Schema Validator
         </span>
       </button>
+      <Analytics />
     </div>
   );
 }
